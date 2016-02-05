@@ -17,6 +17,7 @@ angular.module('app').directive(
               contextMenuCommands: '='
             },
             link: function(scope, element, attributes, controller) {
+              alert("ee")
               scope.$watchGroup(['elements', 'styles', 'layout'], function(
                       newValues, oldValues, scope) {
                 var safe = true;
