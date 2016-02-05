@@ -31,6 +31,8 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-express": "^1.4.1",
     "grunt-open": "^0.2.3",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7",
     "phantomjs": "^1.9.19"
   }
 }
